@@ -4,6 +4,7 @@
 body {
     width: 50%;
     margin: auto;
+    background-color: white;
 }
 
 h1, h2, p, li, strong {
