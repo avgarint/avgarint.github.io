@@ -26,7 +26,11 @@ h2 span {
     font-family: "Contrail One", sans-serif;
 }
 
-p, strong {
+p {
+    font-size: 1rem;
+}
+
+strong {
     font-size: 1.8rem;
 }
 
