@@ -68,30 +68,34 @@ main section {
 .highlight-blue:before ,
 .highlight-yellow:before,
 .highlight-green:before  {
-    content: "";
+    content: " ";
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin-left: -3px;
+    margin-right: -3px;
     position: absolute;
-    width: calc(100% + 6px);
-    height: 70%;
-    left: -4px;
-    bottom: 0;
-    z-index: -1;
-    transform: rotate(-4deg);
+    transform: rotate(2deg);
+    top: -1px;
+    left: -1px;
+    border-radius: 20% 25% 20% 24%;
+    padding: 10px 3px 3px 10px;
 }
 
 .highlight-red {
-    background-color: rgb(255, 0, 238);
+    background: rgb(255, 0, 238);
 }
 
 .highlight-blue {
-    background-color: rgb(61, 145, 255);
+    background: rgb(61, 145, 255);
 }
 
 .highlight-yellow {
-    background-color: yellow;
+    background: yellow;
 }
 
 .highlight-green {
-    background-color: rgb(145, 255, 0);
+    background: rgb(145, 255, 0);
 }
 
 .socials {
