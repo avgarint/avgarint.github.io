@@ -70,6 +70,7 @@ main section {
 .highlight-green:before  {
     content: " ";
     display: block;
+    z-index: -1;
     height: 90%;
     width: 100%;
     margin-left: -3px;
@@ -82,20 +83,20 @@ main section {
     padding: 10px 3px 3px 10px;
 }
 
-.highlight-red {
-    background: rgb(255, 0, 238);
+.highlight-red::before {
+    background-color: rgb(255, 0, 238);
 }
 
-.highlight-blue {
-    background: rgb(61, 145, 255);
+.highlight-blue::before {
+    background-color: rgb(61, 145, 255);
 }
 
-.highlight-yellow {
-    background: yellow;
+.highlight-yellow::before {
+    background-color: yellow;
 }
 
-.highlight-green {
-    background: rgb(145, 255, 0);
+.highlight-green::before {
+    background-color: rgb(145, 255, 0);
 }
 
 .socials {
