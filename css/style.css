@@ -14,28 +14,28 @@ h1, h2, p, li, strong {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 5vw, 4rem);
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
 strong {
-    font-size: 1.8rem;
+    font-size: clamp(1.5rem, 3vw, 1.8rem);
 }
 
 footer p {
     float: right;
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
 li {
-    font-size: 1.3rem;
+    font-size: clamp(1rem, 2.5vw, 1.3rem);
     font-family: "Contrail One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -55,14 +55,14 @@ main section {
 .highlight-red,
 .highlight-blue,
 .highlight-yellow,
-.highlight-green  {
+.highlight-green {
     position: relative;
 }
 
 .highlight-red:before,
-.highlight-blue:before ,
+.highlight-blue:before,
 .highlight-yellow:before,
-.highlight-green:before  {
+.highlight-green:before {
     content: " ";
     display: block;
     z-index: -1;
@@ -103,7 +103,7 @@ main section {
 }
 
 .socials a {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
     color: black;
 }
 
