@@ -12,6 +12,10 @@
         font-size: 2rem;
     }
 
+    h2, p {
+        font-size: 1rem;
+    }
+
     .logo {
         width: 80px;
     }
